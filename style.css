@@ -1,0 +1,42 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+div{
+    overflow: hidden;
+}
+.garamond {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size:110%;
+}
+.center{
+    text-align: center;
+}
+.bg-gray{
+    background-color:#eee;
+    padding:10px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+  .nav{
+      margin:10px;
+      padding:30px;
+  }
+@media only screen and (min-width: 600px) {
+  .nav{
+      float:left;
+      width:15%;
+      height:100%;
+      border-right:5px double #eee;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .nav{
+      border-bottom:5px double #eee;
+  }
+  .nav p{
+      display:inline;
+  }
+}
